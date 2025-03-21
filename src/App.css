@@ -1,0 +1,34 @@
+#root {
+  margin: 0 auto;
+}
+
+.main-container {
+  background-color: rgb(255, 255, 255);
+}
+
+.svg-image-map {
+  max-height: 90vh; 
+  min-height: 90vh;
+  mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 70%);
+}
+
+svg path:hover {
+  fill: rgb(254, 254, 250);
+  filter: blur(10px) opacity(0.9);
+  transition: fill 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+.particles-container {
+  pointer-events: none;
+}
+
+.notes {
+  max-width: 70%;
+}
+
+.notes-container {
+  text-align: right;
+}
+
