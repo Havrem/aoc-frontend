@@ -24,8 +24,12 @@ svg path:hover {
   pointer-events: none;
 }
 
+.notes:hover {
+  cursor: pointer;
+}
+
 .notes {
-  max-width: 70%;
+  max-width: 30%;
 }
 
 .notes-container {
