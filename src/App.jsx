@@ -8,7 +8,6 @@ import Chimes from './Chimes'
 function App() {
   return (
     <Container className="main-container" fluid>
-      <h1>Testar cicd försök 2</h1>
           <div className="position-relative w-100">
             <Tree className="svg-image-map" />
             <div className="position-absolute top-0 end-0 p-2 z-3">
